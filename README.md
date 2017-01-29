@@ -70,7 +70,7 @@ Full examples showing how to run the analysis are in the `mito_analysis.ipynb` n
 
 ```
 cd notebooks
-jupyter notebooks
+jupyter notebook
 ```
 
 Note: To run the notebook, you will need `jupyter notebook` as described in
