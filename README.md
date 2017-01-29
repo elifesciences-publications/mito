@@ -17,7 +17,7 @@ Installation
 
 ```
 pip install -U numpy
-pip install --process-dependency-links -e https://gitlab.erc.monash.edu.au/skeith/mito.git
+pip install --process-dependency-links -e git+https://gitlab.erc.monash.edu.au/skeith/mito.git#egg=mito
 ```
 
 To use the notebook:
@@ -38,7 +38,6 @@ Currently, the best way to run this analysis is via a `jypter notebook`. The ana
 Basic Usage
 -----------
 
-Full examples showing how to run the analysis are in the `mito_analysis.ipynb` notebook in the notebook directory.
 
 Imports:
 
@@ -66,6 +65,16 @@ Calculate R90%:
 
   r90 = process_r90(img_path, treatment="Mock", time="8h", output_dir=output_dir)
 ```
+
+Full examples showing how to run the analysis are in the `mito_analysis.ipynb` notebook in the notebook directory.
+
+```
+cd notebooks
+jupyter notebooks
+```
+
+Note: To run the notebook, you will need `jupyter notebook` as described in
+[Installation][#Installation]. Images for this study are available on request. You will need to update the paths to the location of the images provided.
 
 Credits
 ---------
