@@ -17,7 +17,7 @@ Installation
 
 ```
 pip install -U numpy
-pip install --process-dependency-links -e git+https://gitlab.erc.monash.edu.au/skeith/mito.git#egg=mito
+pip install --process-dependency-links -e git+https://gitlab.erc.monash.edu.au/mmi/mito.git#egg=mito
 ```
 
 To use the notebook:
