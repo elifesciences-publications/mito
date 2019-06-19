@@ -11,6 +11,9 @@ is quite nested.
 
 * Free software: MIT license
 
+### This code is associated with the paper from Hu et al., "Respiratory syncytial virus co-opts host mitochondrial function to favour infectious virus production". eLife, 2019. http://dx.doi.org/10.7554/eLife.42448
+
+
 
 Installation
 ------------
